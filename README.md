@@ -9,8 +9,8 @@ If using this code within R Studio, collapse all sections by pressing Alt + O fo
 
 ### Sections:
 
-1.) From a Local .xlsx/.csv File
-2.) From a Database
+1.) From a Local .xlsx/.csv File /n
+2.) From a Database \n
 3.) From a Data File on the Web
 4.) From an .xlsx/.csv file on the Web
 5.) Scraped from a Webpage
