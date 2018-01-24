@@ -3,7 +3,7 @@
 # Press Alt + O to collapse all sections in order to choose the section of interest
 # To expand all sections, press Shift + Alt + O
 
-## From a Local Excel/.csv File ####
+## 1.) From a Local .xlsx/.csv File ####
 
 ### view the current working directory path
 getwd()
@@ -22,7 +22,7 @@ data <- read.xlsx("pain.xlsx",1) ## enter your filename here
 head(data)
 
 
-## From a Database ####
+## 2.) From a Database ####
 
 library(RODBC)
 
@@ -48,7 +48,7 @@ odbcClose(ch)
 
 
 
-## From a Data File on the Web ####
+## 3.) From a Data File on the Web ####
 
 ### specify URL for desired website to be scraped
 url <- "https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/german.data"
@@ -69,7 +69,7 @@ head(data)
 
 
 
-## From an Excel file on the web ####
+## 4.) From an .xlsx/.csv file on the Web ####
 
 library(gdata)
 
@@ -87,7 +87,7 @@ rents[1:6, 1:10]
 
 
 
-## Scraped From a Webpage ####
+## 5.) Scraped From a Webpage ####
 
 library(rvest)
 
@@ -142,7 +142,7 @@ for (i in c(39,73,80,89)){ ## these values are the location of the missing value
 
 
 
-## Example of scraping UCI Machine Learning Data Repository data ####
+## 6.) Example of Scraping data from "UCI Machine Learning Data Repository" ####
 
 library(rvest)
 library(dplyr)
