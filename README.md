@@ -7,7 +7,7 @@ This repository is meant to provide examples of how to retrieve data from variou
 
 If using this code within R Studio, collapse all sections by pressing Alt + O for easier navigation between sections.  
 
-### Sections
+### Sections:
 
 1.) From a Local .xlsx/.csv File
 2.) From a Database
