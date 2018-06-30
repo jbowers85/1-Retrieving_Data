@@ -1,7 +1,6 @@
-# 1-Retrieving_Data
+# Retrieving Data
 
-This repository is meant to provide examples of how to retrieve data from various sources using R. 
-
+This repository is meant to provide examples of different methods of retrieving data from various sources in R 
 
 ## Getting Started
 
